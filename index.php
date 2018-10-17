@@ -37,7 +37,5 @@ echo($num[2]);
 <p>
 <a href="help.html">説明を見る</a>　<a href="score.php">ランキングを見る</a>
 </p>
-<hr>
-<a href="../index.html">おもちゃ箱に戻る</a> <a href="http://www.nyanchangames.com/">トップへ戻る</a>
 </body>
 </html>
