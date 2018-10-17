@@ -1,0 +1,32 @@
+﻿<html lang="ja">
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title> Absolute Simon </title>
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+<body bgcolor="white" Text="black" 
+Link="blue" Vlink="red" Alink="lime">
+<script src="game.js"></script>
+<h1>Absolute Simon</h1>
+<form name="startForm">
+<button type="button" name="gameStartBTN" value="開始" onclick="startGame();">開始</button>
+</form>
+
+<h1 id="scoreArea">----</h1>
+<form  name="keyboardForm">
+<button class="commonStyle" type="button" name="note1" value="ド" onclick="inputAnswer(1);" disabled="true">ド</button>
+<button class="commonStyle" type="button" name="note2" value="レ" onclick="inputAnswer(2);" disabled="true">レ</button>
+<button class="commonStyle" type="button" name="note3" value="ミ" onclick="inputAnswer(3);" disabled="true">ミ</button>
+<button class="commonStyle" type="button" name="note4" value="ファ" onclick="inputAnswer(4);" disabled="true">ファ</button>
+<button class="commonStyle" type="button" name="note5" value="ソ" onclick="inputAnswer(5);" disabled="true">ソ</button>
+<button class="commonStyle" type="button" name="note6" value="ラ" onclick="inputAnswer(6);" disabled="true">ラ</button>
+<button class="commonStyle" type="button" name="note7" value="シ" onclick="inputAnswer(7);" disabled="true">シ</button>
+<button class="commonStyle" type="button" name="note8" value="＜ド" onclick="inputAnswer(8);" disabled="true">＜ド</button>
+</form>
+<div id="scorePostArea">
+</div>
+<hr>
+<a href="index.php">難易度選択へ</a>
+</body>
+</html>
