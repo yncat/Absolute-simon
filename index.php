@@ -14,7 +14,6 @@ $num=array(0,0,0);
 <body bgcolor="white" Text="black" 
 Link="blue" Vlink="red" Alink="lime">
 <h1>Absolute Simon</h1>
-<img src="icon.png" alt="Nyanchan Games logo">
 
 <p>難易度を選択してください。</p>
 <p>
